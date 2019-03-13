@@ -32,7 +32,7 @@ forbes.list({ limit: 5, filter: { state: 'texas' } }).then(response => {
 
 /**  
  * Limits the length of the returning array
- *  Valid industries include -> technology, fashion, finance, investments etc.. 
+ * Valid industries include -> technology, fashion, finance, investments etc.. 
  */
 forbes.list({ limit: 5, filter: { industry: 'fashion' } }).then(response => {
     console.log(response)

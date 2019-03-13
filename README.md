@@ -2,92 +2,87 @@
 
 Npm package that interfaces with the forbes400 api and returns a list of the world richest people
 
-**JSON Api**: https://forbes400.herokuapp.com <br/>
-
 ![](/images/youngest.png?raw=true)
 
 ![](/images/women.png?raw=true)
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
 ```
-Give the example
+npm install forbes-list --save
 ```
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
+### Documentation
 
 Explain what these tests test and why
 
+## Usage examples
+
+### Retrieves all billionaires
+
+```js
+const forbes = require('forbes-list')
+
+forbes.list().then(response => {
+    console.log(response)
+})
 ```
-Give an example
+
+### Limits the length of the returning array 
+
+```js
+const forbes = require('forbes-list')
+
+forbes.list({ limit: 5 }).then(response => {
+    console.log(response)
+})
 ```
 
-### And coding style tests
+### Limits the length of the returning array
+### Valid parameters for filter -> youngest, oldest, women or female, men or male, real-time 
 
-Explain what these tests test and why
+```js
+const forbes = require('forbes-list')
 
+forbes.list({ limit: 5, filter: 'real-time' }).then(response => {
+    console.log(response)
+})
 ```
-Give an example
+
+### Limits the length of the returning array
+### Any valid state in the usa  
+
+```js
+const forbes = require('forbes-list')
+
+forbes.list({ limit: 5, filter: { state: 'texas' } }).then(response => {
+    console.log(response)
+})
 ```
 
-## Deployment
+### Limits the length of the returning array
+### Valid industries include -> technology, fashion, finance, investments etc..  
 
-Add additional notes about how to deploy this on a live system
+```js
+const forbes = require('forbes-list')
+
+forbes.list({ limit: 5, filter: { industry: 'fashion' } }).then(response => {
+    console.log(response)
+})
+```
+
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+* [axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and node.js
+* [forbesApi](https://forbes400.herokuapp.com) - JSON Api for the forbes list
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Jesse Okeya** - *Initial work* - [website](http://jesseokeya.com)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/jesseokeya/forbes-list/graphs/contributors) who participated in this project.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
