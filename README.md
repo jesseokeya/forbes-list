@@ -20,6 +20,11 @@ Install and require the library to begin
 const forbes = require('forbes-list')
 ```
 
+| Option        | Type          | Value(s)      | Default       | Description    |
+| ------------- | ------------- | ------------- | ------------- |  ------------- |
+| bb            | testing       | testing       | testing       |  testimng      |
+| bb            | testing       | testing       | testing       |  testimng      |
+
 ## Usage examples
 
 ### Payload Sample 
