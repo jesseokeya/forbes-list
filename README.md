@@ -6,13 +6,13 @@ Npm package that interfaces with the forbes400 api and returns a list of the wor
 
 ![](/images/women.png?raw=true)
 
-### Installing
+## Installing
 
 ```
 npm install forbes-list --save
 ```
 
-### Documentation
+## Documentation
 
 Explain what these tests test and why
 
