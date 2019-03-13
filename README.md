@@ -24,7 +24,7 @@ forbes.list(options)
 | Options       | Type                      | Value(s)                                                                              | Default       | Description                                           |
 | ------------- | -------------             | -------------                                                                         | ------------- |  -------------                                        |
 |               | {null}                    | null                                                                                  | null          |  Retrieves and returns a lis of all billionaires      |
-| limit         | {Number} or {String}      | valid integer | 2153          |  Limits the length of the returning array             |
+| limit         | {Number} or {String}      | Any valid integer | 2153          |  Limits the length of the returning array             |
 | filter        | {String}                  | `youngest`, `oldest`, `women or female`, `men or male`, `real-time`                   | null         |  Filters down the list based on the parameters passed down           |
 | filter        | {Object}                  | Any valid american state  i.e ` state: 'texas' `              | null          |  Any valid state in the usa             |
 
