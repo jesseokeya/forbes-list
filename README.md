@@ -21,10 +21,10 @@ const forbes = require('forbes-list')
 forbes.list(options)
 ```
 
-| Options       | Type          | Value(s)      | Default       | Description                                           |
-| ------------- | ------------- | ------------- | ------------- |  -------------                                        |
-| empty         | null          | null          | null          |  Retrieves and returns a lis of all billionaires      |
-| bb            | testing       | testing       | testing       |  testimng                                             |
+| Options       | Type                      | Value(s)      | Default       | Description                                           |
+| ------------- | -------------             | ------------- | ------------- |  -------------                                        |
+|               | {null}                    | null          | null          |  Retrieves and returns a lis of all billionaires      |
+| limit         | {Number} || {String}      | valid integer | 2153          |  Limits the length of the returning array             |
 
 ## Usage examples
 
