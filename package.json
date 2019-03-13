@@ -1,0 +1,36 @@
+{
+  "name": "forbes-list",
+  "version": "1.0.0",
+  "description": "npm package that interfaces with the forbes400 api and returns a list of the richest people in the world",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesseokeya/forbes-list.git"
+  },
+  "keywords": [
+    "nodejs",
+    "forbes400",
+    "axios",
+    "lodash",
+    "forbes"
+  ],
+  "author": "Jesse Okeya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jesseokeya/forbes-list/issues"
+  },
+  "homepage": "https://github.com/jesseokeya/forbes-list#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "jest": "^24.5.0"
+  }
+}
