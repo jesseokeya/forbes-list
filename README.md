@@ -14,7 +14,9 @@ npm install forbes-list --save
 
 ## Documentation
 
-Explain what these tests test and why
+```
+const forbes = require('forbes-list')
+```
 
 ## Usage examples
 
