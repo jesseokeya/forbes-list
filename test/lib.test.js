@@ -89,6 +89,7 @@ test('list', () => {
         { limit, filter: { error: 'qwerty' } },
         { limit, filter: { now: 'qwerty' } }
     ]
+    
     invalidParams.forEach(async param => {
         try {
             expect(forbes.list).toBeDefined()
