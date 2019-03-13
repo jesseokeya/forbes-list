@@ -22,10 +22,10 @@ const forbes = require('forbes-list')
 
 ## Usage examples
 
-payload sample 
+### Payload Sample 
 
 ```js
-[ { position: 1,
+[{ position: 1,
     rank: 1,
     name: 'Jeff Bezos',
     lastName: 'Bezos',
@@ -46,29 +46,7 @@ payload sample
     realTimeRank: 1,
     realTimePosition: 1,
     government: false,
-    squareImage: '//specials-images.forbesimg.com/imageserve/5bb22ae84bbe6f67d2e82e05/416x416.jpg?background=000000&cropX1=904&cropX2=1403&cropY1=262&cropY2=761' },
-  { position: 2,
-    rank: 2,
-    name: 'Bill Gates',
-    lastName: 'Gates',
-    uri: 'bill-gates',
-    imageUri: 'bill-gates',
-    worth: 96500,
-    worthChange: 306.033,
-    age: 63,
-    source: 'Microsoft',
-    industry: 'Technology',
-    gender: 'M',
-    country: 'United States',
-    title: 'Cofounder, Bill & Melinda Gates Foundation',
-    timestamp: 1552490101279,
-    headquarters: 'WA',
-    state: 'Washington',
-    realTimeWorth: 98352.95,
-    realTimeRank: 2,
-    realTimePosition: 2,
-    government: false,
-    squareImage: '//specials-images.forbesimg.com/imageserve/5c76b4b84bbe6f24ad99c370/416x416.jpg?background=000000&cropX1=0&cropX2=4000&cropY1=0&cropY2=4000' } ]
+    squareImage: '//specials-images.forbesimg.com/imageserve/5bb22ae84bbe6f67d2e82e05/416x416.jpg?background=000000&cropX1=904&cropX2=1403&cropY1=262&cropY2=761' }]
 ```
 
 ### Retrieves all billionaires
