@@ -16,7 +16,7 @@ npm install forbes-list --save
 
 Install and require the library to begin
 
-```
+```js
 const forbes = require('forbes-list')
 ```
 
