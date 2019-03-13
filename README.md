@@ -27,6 +27,7 @@ forbes.list(options)
 | limit         | {Number} or {String}      | Any valid integer | 2153          |  Limits the length of the returning array             |
 | filter        | {String}                  | `youngest`, `oldest`, `women or female`, `men or male`, `real-time`                   | null         |  Filters down the list based on the parameters passed down           |
 | filter        | {Object}                  | Any valid american state  i.e ` state: 'texas' `              | null          |  Any valid state in the usa             |
+| filter        | {Object}                  | Any valid industry i.e `industry: 'technology'`, valid indusries: `technology`, `fashion`, `finance`, `investments etc..`              | null          |  Valid industries include technology, fashion, finance, investments etc..             |
 
 ## Usage examples
 
