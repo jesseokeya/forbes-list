@@ -1,6 +1,12 @@
 # forbes-list
 
-One Paragraph of project description goes here
+Npm package that interfaces with the forbes400 api and returns a list of the world richest people
+
+**JSON Api**: https://forbes400.herokuapp.com <br/>
+
+![](/images/youngest.png?raw=true)
+
+![](/images/women.png?raw=true)
 
 ## Getting Started
 
