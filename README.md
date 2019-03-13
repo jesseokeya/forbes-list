@@ -75,7 +75,7 @@ forbes.list({ limit: 5, filter: { industry: 'fashion' } }).then(response => {
 ## Built With
 
 * [axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and node.js
-* [forbesApi](https://forbes400.herokuapp.com) - JSON Api for the forbes list
+* [forbesApi](https://forbes400.herokuapp.com) - JSON Api Of The Forbes 400 Richest People List
 
 ## Authors
 
