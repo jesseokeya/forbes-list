@@ -18,12 +18,13 @@ Install and require the library to begin
 
 ```js
 const forbes = require('forbes-list')
+forbes.list(options)
 ```
 
-| Option        | Type          | Value(s)      | Default       | Description    |
-| ------------- | ------------- | ------------- | ------------- |  ------------- |
-| bb            | testing       | testing       | testing       |  testimng      |
-| bb            | testing       | testing       | testing       |  testimng      |
+| Options       | Type          | Value(s)      | Default       | Description                                           |
+| ------------- | ------------- | ------------- | ------------- |  -------------                                        |
+| empty         | null          | null          | null          |  Retrieves and returns a lis of all billionaires      |
+| bb            | testing       | testing       | testing       |  testimng                                             |
 
 ## Usage examples
 
