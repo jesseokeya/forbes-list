@@ -5,4 +5,9 @@
  * @author Jesse Okeya <jesseokeya@gmail.com>
  * @created 12/03/2019
  */
-module.exports = require('./lib')
+const _ = require('lodash')
+const axios = require('axios')
+
+const ForbesList = require('./lib')
+
+module.exports = new ForbesList({ axios, _ })
